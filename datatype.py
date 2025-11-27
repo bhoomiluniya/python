@@ -56,7 +56,7 @@
 
 # grade=int(input("what is your grade:\n"))
 # if grade>101:
-#     print("chutiya mat bana")
+#     print("na mat bana")
 #     exit()
 
 # if grade>=90:
@@ -90,7 +90,7 @@
 #     # print(ripeness)
 
 # else:
-#     ripeness="gelchoda"
+#     ripeness="NA"
 
 # print(ripeness)
 
@@ -109,7 +109,7 @@
 #     print("overripe")
 
 # else:
-#     print("gelchoda")
+#     print("na")
 
 
 
@@ -230,17 +230,116 @@
 # print("total positive number count is: ",positive_number_count)
 
 
-day=["monday","tuesday","wednesday","thu","fri","sat","sun"]
-meal=["breakfast","lunch","dinner"]
+# day=["monday","tuesday","wednesday","thu","fri","sat","sun"]
+# meal=["breakfast","lunch","dinner"]
 
 
-for a in day:
-    print("today is",a) 
-    for b in meal:
-        if b=="dinner":
-            break
-        print ("i had ", b)
-        print ("")
+# for a in day:
+#     print("today is",a) 
+#     for b in meal:
+#         if b=="dinner":
+#             break
+#         print ("i had ", b)
+#         print ("")
+
+
+
+
+# n=int(input("give a number:"))
+# sum_even=0
+
+# for i in range(1, n+1):
+#     if i%2==0:
+#         sum_even+=1
+# print("sum of even no is:",sum_even)
+
+
+
+# given_number=2
+# for i in range(1,11):
+#     if i==5:
+#         continue
+#     print(given_number, "x", i, "=", (given_number*i))
+    
+
+# i=(input("give your numbers:\n"))
+# j=(i.split())
+# k=[int(s) for s in j]
+
+#hardcode
+# k=[3,204,6,55,109,10,21,5]
+
+# for n in k:
+#     if (n<1)or(n>100):
+#         continue    
+#     else: 
+#         if n%2!=0:
+#             print(n,":Weird")
+#         elif (n%2==0)and(range(2,6)):
+#             print(n,":Not Weird")
+#         elif (n%2==0)and(range(6,21)):
+#             print(n,":Weird")
+#         else:
+#             print(n,":Not Weird")
+
+
+# input="hello"
+# reverse=""
+
+# for i in input:
+#     reverse=i+reverse
+# print(reverse)
+
+
+# word="aabcbdcc"
+# for i in word:
+#     print(i)
+#     if word.count(i) == 1:
+#         print("it is",i)
+#         break
+
+
+
+# number=5
+# factorial=1
+
+# while number>0:
+#     factorial*=number
+#     number-=1
+# print(factorial)
+
+
+
+
+
+# //break in if : here the program will terminate if you give something in between 1 and 100
+# //continue in if : the program will keep running
+# //break in else : here the program will terminate if you give something in outside 1 and 100
+# //continue in if : the program will keep running
+
+# while True:
+#     i=int(input("give a number:"))
+#     if 1<=i<=100:
+#         print("thankyou")
+#         # continue
+#         # break
+#     else:
+#         print("please try again")
+        # break
+        # continue
+        
+
+
+
+
+
+
+
+
+
+   
+
+
 
 
 
